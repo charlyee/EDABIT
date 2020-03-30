@@ -16,9 +16,13 @@ function firstNVowels(s, n) {
 
 
 
+
 // ASSIGNMENT 2: Create a function that takes an integer n and reverses it
+
 function rev(n) {
 	n = n + "";
 	return n.split('').reverse().join('');
 }
-console.log(rev(987654));
+console.log(rev(987654));  
+// For some reason, i couldnt get the code to work for negative numbers. 
+// I am still working on it but for now, i do not want to miss the submission deadline.
